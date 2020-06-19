@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know you can!</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="img" src="assets/img/news.jpg" alt="" srcset="">
+        <audio id="player" controls autoplay loop src="assets/ican.mp3">If stream does not
+            start automatically press the play button</audio>
+    </div>
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+        var audio = document.getElementById("player");
+        audio.volume = 0.3;
+    });
+
+</script>
+
+</html>

@@ -1,0 +1,24 @@
+html,body{
+    max-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.img {
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#player {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    position: absolute;
+    top: 0;
+    width: 250px;
+}
